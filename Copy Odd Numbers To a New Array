@@ -34,7 +34,7 @@ void CopyOddNumbers(int arrSource[100], int arrDestination[100], int arrLength, 
 }
 
 int main()
-{ // Seeds the random number generator in C++, called only once
+{ 
     srand((unsigned)time(NULL));
     int arr[100], arrLength = 0, arr2Length = 0;
     FillArrayWithRandomNumbers(arr, arrLength);
